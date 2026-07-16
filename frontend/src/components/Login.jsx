@@ -47,7 +47,7 @@ function Login({ onLoginSuccess, onSwitchToRegister }) {
       justifyContent: 'center',
       minHeight: '100vh',
       width: '100vw',
-      background: 'radial-gradient(circle at top right, #1e2942 0%, #0b0f19 70%)',
+      background: 'radial-gradient(circle at top right, #fffbeb 0%, #fefdfa 85%)',
       position: 'fixed',
       top: 0,
       left: 0,
@@ -57,20 +57,20 @@ function Login({ onLoginSuccess, onSwitchToRegister }) {
       {/* Decorative Blur Orbs */}
       <div style={{
         position: 'absolute',
-        width: '300px',
-        height: '300px',
-        background: 'rgba(59, 130, 246, 0.15)',
-        filter: 'blur(80px)',
+        width: '320px',
+        height: '320px',
+        background: 'rgba(253, 224, 71, 0.35)',
+        filter: 'blur(100px)',
         borderRadius: '50%',
         top: '10%',
         right: '15%'
       }}></div>
       <div style={{
         position: 'absolute',
-        width: '250px',
-        height: '250px',
-        background: 'rgba(139, 92, 246, 0.12)',
-        filter: 'blur(80px)',
+        width: '280px',
+        height: '280px',
+        background: 'rgba(254, 240, 138, 0.25)',
+        filter: 'blur(90px)',
         borderRadius: '50%',
         bottom: '10%',
         left: '10%'
@@ -79,12 +79,12 @@ function Login({ onLoginSuccess, onSwitchToRegister }) {
       <div style={{
         width: '100%',
         maxWidth: '420px',
-        padding: '2.5rem',
-        backgroundColor: 'rgba(21, 29, 48, 0.8)',
-        backdropFilter: 'blur(12px)',
-        border: '1px solid var(--border-color)',
+        padding: '2.75rem 2.5rem',
+        backgroundColor: 'rgba(255, 255, 255, 0.65)',
+        backdropFilter: 'blur(24px) saturate(190%)',
+        border: '1px solid rgba(234, 179, 8, 0.25)',
         borderRadius: 'var(--radius-lg)',
-        boxShadow: '0 20px 40px rgba(0, 0, 0, 0.5)',
+        boxShadow: '0 24px 60px rgba(202, 138, 4, 0.15)',
         position: 'relative',
         zIndex: 10,
         textAlign: 'center'
